@@ -27,4 +27,20 @@ async def admin(ctx, *, message):
 async def repetir(ctx, *, content):
     await ctx.send(content)
 
-bot.run("SECRET TOKEN")
+
+@bot.command()
+async def reglas(ctx):
+    reglas = [
+        "1. Se respetuoso, esta es una comunidad.",
+        "2. Manten seguridad y no compartas informacion personal",
+        "3. Mantener los debates y conversaciones en un tono respetuoso.",
+        "4. No compartir contenido inapropiado .",
+        "5. No hacer spam de contenido o imagenes.",
+        "6. Utilizar los canales adecuados para cada tipo de contenido.",
+        "Recuerda que infrigir en estos aspectos puede generar una sancion :)",
+    ]
+    
+    mensaje = "Reglas del servidor:\n\n" + "\n".join(reglas)
+    await ctx.send(mensaje)
+
+bot.run("Secret code")
