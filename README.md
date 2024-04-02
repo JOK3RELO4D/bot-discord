@@ -1,1 +1,1 @@
-En primer lugar, el proyecto incluye un archivo bot.py que contiene la configuración básica del bot, como la importación de la biblioteca Discord.py, la creación de un objeto Bot que representa al bot en Discord, y la definición de comandos y eventos.
+Este codigo contiene funciones en visual studio, para probar su funcionamiento podras acceder a todos los datos del bot.
